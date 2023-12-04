@@ -22,7 +22,7 @@ pub fn main() !void {
         }
     }
 
-    var digits2 = std.ArrayList(usize).init(alloc.allocator()); // Change the type to usize
+    var digits2 = std.ArrayList(usize).init(alloc.allocator());
     var i: usize = 0;
 
     var two_nums: [2]u8 = undefined;
